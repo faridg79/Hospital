@@ -23,13 +23,13 @@ Here is an example of how to use the classes and methods provided by the project
 ```python
 hospital = Hospital()
 
-doctor1 = Doctor("Dr. John Smith", "Surgery")
-doctor2 = Doctor("Dr. Emily Johnson", "Internal Medicine")
+doctor1 = Doctor("Dr. Alireza Hosseini", "Surgery")
+doctor2 = Doctor("Dr. Mina Rahbar", "Internal Medicine")
 hospital.add_doctor(doctor1)
 hospital.add_doctor(doctor2)
 
-patient1 = Patient("John Doe", "Fever")
-patient2 = Patient("Jane Smith", "Influenza")
+patient1 = Patient("Nima Javid", "Fever")
+patient2 = Patient("Hassan Khosravi", "Influenza")
 hospital.add_patient(patient1)
 hospital.add_patient(patient2)
 
