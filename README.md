@@ -19,15 +19,16 @@ The project allows you to manage doctors, patients, and rooms in a hospital. It 
 Here is an example of how to use the classes and methods provided by the project:
 
 ```python
+
 hospital = Hospital()
 
-doctor1 = Doctor("Dr. Alireza Hosseini", "Surgery")
-doctor2 = Doctor("Dr. Mina Rahbar", "Internal Medicine")
+doctor1 = Doctor("دکتر محمدی", "جراحی")
+doctor2 = Doctor("دکتر علوی", "داخلی")
 hospital.add_doctor(doctor1)
 hospital.add_doctor(doctor2)
 
-patient1 = Patient("Nima Javid", "Fever")
-patient2 = Patient("Hassan Khosravi", "Influenza")
+patient1 = Patient("علی احمدی", "سرماخوردگی")
+patient2 = Patient("زهرا میرزایی", "آنفولانزا")
 hospital.add_patient(patient1)
 hospital.add_patient(patient2)
 
@@ -39,9 +40,9 @@ hospital.add_room(room2)
 room1.assign_patient(patient1)
 room2.assign_patient(patient2)
 
-print("Number of doctors:", hospital.get_num_doctors())
-print("Number of patients:", hospital.get_num_patients())
-print("Number of rooms:", hospital.get_num_rooms())
+hospital.get_num_doctors()
+hospital.get_num_patients()
+hospital.get_num_rooms()
 
 hospital.get_doctors()
 hospital.get_patients()
