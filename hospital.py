@@ -112,8 +112,8 @@ class Hospital:
 
 hospital = Hospital()
 
-doctor1 = Doctor("دکتر محمدی", "جراحی")
-doctor2 = Doctor("دکتر علوی", "داخلی")
+doctor1 = Doctor("علی محمدی", "جراحی")
+doctor2 = Doctor("مهدی علوی", "داخلی")
 hospital.add_doctor(doctor1)
 hospital.add_doctor(doctor2)
 
