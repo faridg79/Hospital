@@ -1,5 +1,3 @@
-# Hospital
-
 # Hospital Management System
 
 This is a simple Hospital Management System implemented in Python using object-oriented programming (OOP) principles.
